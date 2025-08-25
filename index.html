@@ -16,7 +16,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
     <div>
         <header>
             <div id="logo">
-                <img src="images/logo.png" alt="Child Care SA Logo">
+                <img src="images/logo.png" alt="Child Care SA Logo"><link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
             </div>
             <div id="tabs-top">
                 <a href="#AboutUs">About Us</a>
@@ -25,9 +25,9 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
                 <a href="#MajorRecentProjects">Major Recent Projects</a>
                 <a href="#DonateToUs">Donate To Us</a>
                 <a href="#ContactUs">Contact Us</a>
-                <a href="https://www.facebook.com/ChildCareSA" target="_blank">Facebook</a>
-                <a href="https://www.instagram.com/childcaresa/" target="_blank">Instagram</a>
-                <a href="https://www.linkedin.com/company/childcaresa/">Linkedin</a>
+                <a href="https://www.facebook.com/Child-Care-South-Africa-106028412755447" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/childcaresa/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/company/child-care-south-africa/"><i class="fab fa-linkedin"></i></a>
             </div>
         </header>
         <main>
@@ -154,24 +154,29 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
                     Seluleko Centre: Kholweni Tribal Authority, Ntumeni, 3830</p>
                     <form>
                         <div class="form-group">
-                        <label>Name<br>
+                        <label>Name <span style="color: red;">*</span><br>
                         <input type="text" id="firstname" name="firstname" required>
                         <input type="text" id="lastname" name="lastname" required><br>
                         </label>
                         </div>
-                        <label for="email">Email:</label><br>
+                        <div class="fname-placeholder" style="margin-right: 47.5%; display: inline; color: rgb(59, 59, 59); font-weight: 300;">First</div>
+                        <div class="lname-placeholder" style="display: inline; color: rgb(59, 59, 59); font-weight: 300;">Last<br></div><br>
+                        <label for="email">Email <span style="color: red;">*</span></label><br>
                         <input type="email" id="email" name="email" required><br>
-                        <label for="phone">Contact Number:</label><br>
+                        <label for="phone">Contact Number </label><br>
                         <input type="tel" id="phone" name="phone" required><br>
-                        <label for="message">Comment or Message:</label><br>
-                        <textarea id="message" name="message" rows="4" cols="50" required></textarea><br>
-                        <input type="submit" value="Submit">
+                        <label for="message">Comment or Message <span style="color: red;">*</span></label><br>
+                        <textarea id="message" name="message" rows="8" cols="50" required></textarea><br>
+                        <input type="submit" value="Submit Enquiry">
                     </form>
                 </section>
             </div>
         </main>
         <footer>
-
+                <p><a href="https://www.focuspoynt.com/" >© Child Care South Africa | Website development by Focus Poynt</a></p>
+               
+                <a href="https://sacoronavirus.co.za/"><img class="footer-image" src="images/covid.png" alt="Covid-19" style="background-color: #3f6494;"></a>
+                 
         </footer>
     </div>
 </body>
